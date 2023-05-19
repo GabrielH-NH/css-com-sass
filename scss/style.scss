@@ -1,7 +1,7 @@
-@import "colors";
-@import "buttons";
+@import "_colors";
+@import "_buttons";
 
-$preto: #999;
+$preto: rgb(59, 56, 56);
 
 div {
   background: $preto;

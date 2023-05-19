@@ -1,1 +1,22 @@
-p{color:blue;background:red;border-radius:10px}a{display:block;width:200px;height:40px}div{background:#999;height:100px;width:200px}div a{color:pink;text-decoration:none}
+p {
+  color: blue;
+  background: red;
+  border-radius: 10px;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+}
+
+div {
+  background: brown;
+  height: 100px;
+  width: 200px;
+}
+
+div a {
+  color: pink;
+  text-decoration: none;
+}

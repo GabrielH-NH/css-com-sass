@@ -2,11 +2,15 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss"
+		"../scss/style.scss",
+		"../scss/_colors.scss",
+		"../scss/_buttons.scss"
 	],
 	"sourcesContent": [
-		"$preto: #999;\r\n\r\ndiv {\r\n  background: $preto;\r\n  height: 100px;\r\n  width: 200px;\r\n\r\n  a {\r\n    color: pink;\r\n    text-decoration: none;\r\n  }\r\n}"
+		"@import \"_colors\";\r\n@import \"_buttons\";\r\n\r\n$preto: #dacbcb;\r\n\r\ndiv {\r\n  background: $preto;\r\n  height: 100px;\r\n  width: 200px;\r\n\r\n  a {\r\n    color: pink;\r\n    text-decoration: none;\r\n  }\r\n}",
+		"p {\r\n  color: blue;\r\n  background: red;\r\n  border-radius: 10px;\r\n}",
+		"a {\r\n  display: block;\r\n  width: 200px;\r\n  height: 40px;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,GAAG,CAAC;EACF,UAAU,EAHJ,IAAI;EAIV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAMb;;;AATD,AAKE,GALC,CAKD,CAAC,CAAC;EACA,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;CACtB"
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACA,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,IAAI;CACpB;;;ACJD,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACb;;;AFCD,AAAA,GAAG,CAAC;EACF,UAAU,EAHJ,OAAO;EAIb,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAMb;;;AATD,AAKE,GALC,CAKD,CAAC,CAAC;EACA,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;CACtB"
 }
